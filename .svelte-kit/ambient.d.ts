@@ -39,10 +39,11 @@ declare module '$env/static/private' {
 	export const COMPUTERNAME: string;
 	export const ComSpec: string;
 	export const DriverData: string;
-	export const EFC_14924_1262719628: string;
-	export const EFC_14924_1592913036: string;
-	export const EFC_14924_2775293581: string;
-	export const EFC_14924_3789132940: string;
+	export const EFC_16788_1262719628: string;
+	export const EFC_16788_1592913036: string;
+	export const EFC_16788_2283032206: string;
+	export const EFC_16788_2775293581: string;
+	export const EFC_16788_3789132940: string;
 	export const ELECTRON_NO_ASAR: string;
 	export const ELECTRON_RUN_AS_NODE: string;
 	export const FPS_BROWSER_APP_PROFILE_STRING: string;
@@ -52,6 +53,7 @@ declare module '$env/static/private' {
 	export const INTEL_DEV_REDIST: string;
 	export const JAVA_HOME: string;
 	export const LOCALAPPDATA: string;
+	export const LOCAL_GIT_DIRECTORY: string;
 	export const LOGONSERVER: string;
 	export const MIC_LD_LIBRARY_PATH: string;
 	export const NODE_ENV: string;
@@ -136,10 +138,11 @@ declare module '$env/dynamic/private' {
 		COMPUTERNAME: string;
 		ComSpec: string;
 		DriverData: string;
-		EFC_14924_1262719628: string;
-		EFC_14924_1592913036: string;
-		EFC_14924_2775293581: string;
-		EFC_14924_3789132940: string;
+		EFC_16788_1262719628: string;
+		EFC_16788_1592913036: string;
+		EFC_16788_2283032206: string;
+		EFC_16788_2775293581: string;
+		EFC_16788_3789132940: string;
 		ELECTRON_NO_ASAR: string;
 		ELECTRON_RUN_AS_NODE: string;
 		FPS_BROWSER_APP_PROFILE_STRING: string;
@@ -149,6 +152,7 @@ declare module '$env/dynamic/private' {
 		INTEL_DEV_REDIST: string;
 		JAVA_HOME: string;
 		LOCALAPPDATA: string;
+		LOCAL_GIT_DIRECTORY: string;
 		LOGONSERVER: string;
 		MIC_LD_LIBRARY_PATH: string;
 		NODE_ENV: string;
