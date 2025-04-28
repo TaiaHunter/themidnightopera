@@ -1,10 +1,36 @@
 <script lang="ts">
+	import Slideshow from './../../lib/components/Slideshow.svelte';
 	import Column from '$lib/components/Column.svelte';
 	import Columns from '$lib/components/Columns.svelte';
 	import TextBox from '$lib/components/TextBox.svelte';
 	import SingleImage from '$lib/components/SingleImage.svelte';
+
+	const theMidnightOperaImages: string[] = [
+		'/venues/the-midnight-opera/img1.png',
+		'/venues/the-midnight-opera/img2.png',
+		'/venues/the-midnight-opera/img3.png',
+		'/venues/the-midnight-opera/img4.png',
+		'/venues/the-midnight-opera/img5.png',
+		'/venues/the-midnight-opera/img6.png',
+		'/venues/the-midnight-opera/img7.png',
+		'/venues/the-midnight-opera/img8.png'
+	];
+
+	const taiaHunterProductionsImages: string[] = [
+		'/venues/taia-hunter-productions/img1.png',
+		'/venues/taia-hunter-productions/img2.png',
+		'/venues/taia-hunter-productions/img3.png',
+		'/venues/taia-hunter-productions/img4.png',
+		'/venues/taia-hunter-productions/img5.png',
+		'/venues/taia-hunter-productions/img6.png',
+		'/venues/taia-hunter-productions/img7.png',
+		'/venues/taia-hunter-productions/img8.png',
+		'/venues/taia-hunter-productions/img9.png',
+		'/venues/taia-hunter-productions/img10.png'
+	];
 </script>
 
+<h1 id="The Midnight Opera">The Midnight Opera</h1>
 <Columns>
 	<Column weight={1}>
 		<TextBox>
@@ -23,6 +49,35 @@
 		</TextBox>
 	</Column>
 	<Column weight={0.8}>
-		<SingleImage source="/world-image.png" title="World Image" />
+		<Slideshow sources={theMidnightOperaImages} title="The Midnight Opera" />
 	</Column>
 </Columns>
+
+<h1 id="Taia Hunter Productions">Taia Hunter Productions</h1>
+<Columns>
+	<Column weight={1}>
+		<TextBox>
+			<p>
+				Taia Hunter Productions is a world in progress. Commissioned by Taia_Hunter, and currently
+				being built by ZarcxD.
+			</p>
+			<p>
+				THP is meant to be for the Wednesday bar nights only. A smaller venue as well as an art
+				gallery, featuring Taia's work.
+			</p>
+			<p>At the moment the world is still in the very early stages, and not open to the public.</p>
+		</TextBox>
+	</Column>
+	<Column weight={0.8}>
+		<Slideshow sources={taiaHunterProductionsImages} title="The Midnight Opera" />
+	</Column>
+</Columns>
+
+<style>
+	h1 {
+		text-align: center;
+		&:not(:first-child) {
+			margin-top: 40px;
+		}
+	}
+</style>

@@ -9,6 +9,12 @@ export type ImageComponents = {
 	title: string;
 };
 
+export type SlideshowComponents = {
+	sources: string[];
+	width?: number;
+	title: string;
+};
+
 export type ColumnComponents = {
 	weight: number;
 	children: any;
