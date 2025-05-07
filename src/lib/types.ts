@@ -16,6 +16,7 @@ export type SlideshowComponents = {
 };
 
 export type ColumnComponents = {
-	weight: number;
+	weight?: number;
 	children: any;
+	noResize?: boolean;
 };
