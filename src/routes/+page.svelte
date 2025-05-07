@@ -61,4 +61,11 @@
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
 	}
+
+	@media (max-width: 480px) {
+		.grid {
+			display: flex;
+			flex-direction: column;
+		}
+	}
 </style>

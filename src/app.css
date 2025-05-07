@@ -25,6 +25,7 @@ p {
 
 h1 {
 	text-align: center;
+	line-height: 1em;
 	&:not(:first-child) {
 		margin-top: 40px;
 	}

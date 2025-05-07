@@ -43,7 +43,7 @@
 
 <style>
 	iframe {
-		max-width: 100%;
+		max-width: calc(100% - 24px);
 		max-height: 1379px;
 		margin: 12px;
 		align-self: center;
