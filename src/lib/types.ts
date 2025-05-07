@@ -20,3 +20,11 @@ export type ColumnComponents = {
 	children: any;
 	noResize?: boolean;
 };
+
+export type ButtonComponents = {
+	link: string;
+	newTab?: boolean;
+	customSVG?: boolean;
+	displayBlock?: boolean;
+	children: any;
+};
