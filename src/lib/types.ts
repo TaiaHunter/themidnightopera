@@ -28,3 +28,13 @@ export type ButtonComponents = {
 	displayBlock?: boolean;
 	children: any;
 };
+
+export enum Direction {
+	Next = 'NEXT',
+	Back = 'BACK'
+}
+
+export const DirectionReverse: { [key: string]: Direction } = {
+	[Direction.Next]: Direction.Next,
+	[Direction.Back]: Direction.Back
+};
