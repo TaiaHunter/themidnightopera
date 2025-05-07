@@ -14,7 +14,7 @@
 		border: 4px solid #ffcc6f;
 		& > div {
 			margin: 10px;
-			padding: 0px;
+			padding: 12px;
 			text-align: center;
 			border: 3px solid #ffcc6f;
 		}
