@@ -10,7 +10,7 @@
 	img {
 		margin: 12px;
 		align-self: center;
-		width: 90%;
+		width: 100%;
 		border: 6px solid #ffcc6f;
 		box-sizing: border-box;
 	}
