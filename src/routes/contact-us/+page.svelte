@@ -4,13 +4,13 @@
 	import Columns from '$lib/components/Columns.svelte';
 	import Row from '$lib/components/Row.svelte';
 	import SingleImage from '$lib/components/SingleImage.svelte';
-	import TextBox from '$lib/components/TextBox.svelte';
+	import DoubleBorder from '$lib/components/DoubleBorder.svelte';
 </script>
 
 <h1>Contact Us</h1>
 <Columns>
 	<Column weight={1}>
-		<TextBox>
+		<DoubleBorder>
 			<p>
 				<bold>Founder's Discord:</bold>
 				<a href="https://discord.com/users/590786211132604425" target="_blank">taia_huntercat</a><br
@@ -20,7 +20,7 @@
 				<bold>Join Our Discord:</bold>
 				<a href="https://discord.gg/nU7jwzAPMu" target="_blank">Click Here</a>
 			</p>
-		</TextBox>
+		</DoubleBorder>
 
 		<Row>
 			<Button link="https://discord.com/users/590786211132604425" newTab>Founder's Discord</Button>

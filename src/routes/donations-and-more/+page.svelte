@@ -3,11 +3,11 @@
 	import Column from '$lib/components/Column.svelte';
 	import Columns from '$lib/components/Columns.svelte';
 	import SingleImage from '$lib/components/SingleImage.svelte';
-	import TextBox from '$lib/components/TextBox.svelte';
+	import DoubleBorder from '$lib/components/DoubleBorder.svelte';
 </script>
 
 <h1>Donations and More</h1>
-<TextBox>
+<DoubleBorder>
 	<p>
 		We rely on donations as well as art commissions to try and raise money for all the things we
 		need. Such as new particles, props and eventually adding a VIP area or a second venue. Every
@@ -17,4 +17,4 @@
 	<p>
 		<Button link="https://ko-fi.com/taiahunterpro" newTab>Visit Our Ko-fi</Button>
 	</p>
-</TextBox>
+</DoubleBorder>

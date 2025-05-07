@@ -1,18 +1,18 @@
 <script lang="ts">
 	import SingleImage from '$lib/components/SingleImage.svelte';
-	import TextBox from '$lib/components/TextBox.svelte';
+	import DoubleBorder from '$lib/components/DoubleBorder.svelte';
 </script>
 
 <SingleImage source="/opera-info.png" title="Opera Info" width={300} />
 
-<TextBox>
+<DoubleBorder>
 	<p>
 		The Midnight Opera is an adult-only VRChat group that focuses on social events and live
 		performances, ranging from acting and poetry to singing and dancing.
 	</p>
-</TextBox>
+</DoubleBorder>
 <h1>Our Features</h1>
-<TextBox>
+<DoubleBorder>
 	<div class="grid">
 		<div>
 			<h1>Open Mic Nights</h1>
@@ -54,7 +54,7 @@
 			</p>
 		</div>
 	</div>
-</TextBox>
+</DoubleBorder>
 
 <style>
 	.grid {

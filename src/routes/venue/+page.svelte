@@ -2,7 +2,7 @@
 	import Slideshow from './../../lib/components/Slideshow.svelte';
 	import Column from '$lib/components/Column.svelte';
 	import Columns from '$lib/components/Columns.svelte';
-	import TextBox from '$lib/components/TextBox.svelte';
+	import DoubleBorder from '$lib/components/DoubleBorder.svelte';
 	import SingleImage from '$lib/components/SingleImage.svelte';
 
 	const theMidnightOperaImages: string[] = [
@@ -33,7 +33,7 @@
 <h1 id="The Midnight Opera">The Midnight Opera</h1>
 <Columns>
 	<Column weight={1}>
-		<TextBox>
+		<DoubleBorder>
 			<p>
 				The midnight opera is a VRChat world commissioned by Taia_Hunter, and then made by Rinvo.
 			</p>
@@ -46,7 +46,7 @@
 				At the end of the day, we are a theatre and hope to bring magic and imagination that a real
 				theatre can into the VR Space.
 			</p>
-		</TextBox>
+		</DoubleBorder>
 	</Column>
 	<Column weight={0.8}>
 		<Slideshow sources={theMidnightOperaImages} title="The Midnight Opera" />
@@ -56,7 +56,7 @@
 <h1 id="Taia Hunter Productions">Taia Hunter Productions</h1>
 <Columns>
 	<Column weight={1}>
-		<TextBox>
+		<DoubleBorder>
 			<p>
 				Taia Hunter Productions is a world in progress. Commissioned by Taia_Hunter, and currently
 				being built by ZarcxD.
@@ -66,7 +66,7 @@
 				gallery, featuring Taia's work.
 			</p>
 			<p>At the moment the world is still in the very early stages, and not open to the public.</p>
-		</TextBox>
+		</DoubleBorder>
 	</Column>
 	<Column weight={0.8}>
 		<Slideshow sources={taiaHunterProductionsImages} title="The Midnight Opera" />
