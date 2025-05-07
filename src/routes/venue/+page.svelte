@@ -72,12 +72,3 @@
 		<Slideshow sources={taiaHunterProductionsImages} title="The Midnight Opera" />
 	</Column>
 </Columns>
-
-<style>
-	h1 {
-		text-align: center;
-		&:not(:first-child) {
-			margin-top: 40px;
-		}
-	}
-</style>

@@ -14,3 +14,10 @@ body {
 p {
 	margin: 24px;
 }
+
+h1 {
+	text-align: center;
+	&:not(:first-child) {
+		margin-top: 40px;
+	}
+}
