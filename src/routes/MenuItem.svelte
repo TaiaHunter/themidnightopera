@@ -7,7 +7,7 @@
 	if (isHomePage) {
 		path = '/';
 	} else {
-		path = '/' + pageName.toLowerCase().replaceAll(' ', '-');
+		path = '/' + pageName.toLowerCase().replaceAll(' ', '-').replaceAll('&', 'and');
 	}
 </script>
 
