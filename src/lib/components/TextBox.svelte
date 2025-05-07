@@ -3,7 +3,7 @@
 </script>
 
 <section>
-	<div>
+	<div class="textbox">
 		{@render children()}
 	</div>
 </section>
