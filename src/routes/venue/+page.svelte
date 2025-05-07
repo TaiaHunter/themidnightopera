@@ -48,8 +48,8 @@
 			</p>
 		</DoubleBorder>
 	</Column>
-	<Column weight={0.8}>
-		<Slideshow sources={theMidnightOperaImages} title="The Midnight Opera" />
+	<Column noResize>
+		<Slideshow sources={theMidnightOperaImages} title="The Midnight Opera" width={400} />
 	</Column>
 </Columns>
 
@@ -68,7 +68,7 @@
 			<p>At the moment the world is still in the very early stages, and not open to the public.</p>
 		</DoubleBorder>
 	</Column>
-	<Column weight={0.8}>
-		<Slideshow sources={taiaHunterProductionsImages} title="The Midnight Opera" />
+	<Column noResize>
+		<Slideshow sources={taiaHunterProductionsImages} title="The Midnight Opera" width={400} />
 	</Column>
 </Columns>
