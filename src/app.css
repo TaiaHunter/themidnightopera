@@ -1,7 +1,15 @@
+.poltawski-nowy {
+	font-family: 'Poltawski Nowy', serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+}
+
 :root {
 	background-color: black;
 	color: white;
-	font-family: 'Times New Roman', Times, serif;
+	font-family: 'Poltawski Nowy', 'Times New Roman', Times, serif;
+	letter-spacing: 0.1px;
 }
 
 body {
