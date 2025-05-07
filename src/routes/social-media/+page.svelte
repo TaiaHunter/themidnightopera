@@ -1,6 +1,8 @@
 <script lang="ts">
+	import Button from '$lib/components/Button.svelte';
 	import Column from '$lib/components/Column.svelte';
 	import Columns from '$lib/components/Columns.svelte';
+	import Row from '$lib/components/Row.svelte';
 	import SingleImage from '$lib/components/SingleImage.svelte';
 	import TextBox from '$lib/components/TextBox.svelte';
 </script>
@@ -10,23 +12,11 @@
 	<Column weight={1}>
 		<TextBox>
 			<p>You can find videos, images and more of past and future events here!</p>
-			<ul>
-				<li>
-					Youtube: <a href="https://youtube.com/@themidnightopera" target="_blank"
-						>https://youtube.com/@themidnightopera</a
-					>
-				</li>
-				<li>
-					TikTok: <a href="https://www.tiktok.com/@themidnightopera" target="_blank"
-						>https://www.tiktok.com/@themidnightopera</a
-					>
-				</li>
-				<li>
-					Twitter: <a href="https://x.com/midnightoperavr" target="_blank"
-						>https://x.com/midnightoperavr</a
-					>
-				</li>
-			</ul>
+			<Row>
+				<Button link="https://youtube.com/@themidnightopera" newTab>YouTube</Button>
+				<Button link="https://www.tiktok.com/@themidnightopera" newTab>TikTok</Button>
+				<Button link="https://x.com/midnightoperavr" newTab>Twitter</Button>
+			</Row>
 		</TextBox>
 	</Column>
 	<Column noResize>
