@@ -1,0 +1,19 @@
+<script lang="ts">
+	import Column from '$lib/components/Column.svelte';
+	import Columns from '$lib/components/Columns.svelte';
+	import SingleImage from '$lib/components/SingleImage.svelte';
+	import TextBox from '$lib/components/TextBox.svelte';
+</script>
+
+<h1>Donations and More</h1>
+<TextBox>
+	<p>
+		We rely on donations as well as art commissions to try and raise money for all the things we
+		need. Such as new particles, props and eventually adding a VIP area or a second venue. Every
+		dollar helps, so please donate or purchase a commission via the kofi linked below!
+	</p>
+	<p>Soon enough we will also look into physical merch, so please stay tuned!</p>
+	<p>
+		<a href="https://ko-fi.com/taiahunterpro" target="_blank">https://ko-fi.com/taiahunterpro</a>
+	</p>
+</TextBox>
