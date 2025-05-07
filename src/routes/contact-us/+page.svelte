@@ -10,7 +10,9 @@
 	<Column>
 		<TextBox>
 			<p>
-				<bold>Founder's Discord:</bold> taia_huntercat<br />
+				<bold>Founder's Discord:</bold>
+				<a href="https://discord.com/users/590786211132604425" target="_blank">taia_huntercat</a><br
+				/>
 				<bold>Email:</bold>
 				<a href="mailto:themidnightopera@gmail.com">themidnightopera@gmail.com</a><br />
 				<bold>Join Our Discord:</bold>
