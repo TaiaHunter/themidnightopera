@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Button from '$lib/components/Button.svelte';
 	import Column from '$lib/components/Column.svelte';
 	import Columns from '$lib/components/Columns.svelte';
 	import SingleImage from '$lib/components/SingleImage.svelte';
@@ -14,6 +15,6 @@
 	</p>
 	<p>Soon enough we will also look into physical merch, so please stay tuned!</p>
 	<p>
-		<a href="https://ko-fi.com/taiahunterpro" target="_blank">https://ko-fi.com/taiahunterpro</a>
+		<Button link="https://ko-fi.com/taiahunterpro" newTab>Visit Our Ko-fi</Button>
 	</p>
 </TextBox>
