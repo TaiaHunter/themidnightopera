@@ -23,12 +23,18 @@ p {
 	margin: 12px;
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	text-align: center;
 	line-height: 1em;
-	&:not(:first-child) {
-		margin-top: 40px;
-	}
+}
+
+h1:not(:first-child) {
+	margin-top: 40px;
 }
 
 .textbox > h1:first-child {
