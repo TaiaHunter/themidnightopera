@@ -31,7 +31,10 @@
 </script>
 
 <h1 id="the-midnight-opera">The Midnight Opera</h1>
-<Columns>
+<Columns reversed>
+	<Column noResize>
+		<Slideshow sources={theMidnightOperaImages} title="The Midnight Opera" width={400} />
+	</Column>
 	<Column weight={1}>
 		<DoubleBorder>
 			<p>
@@ -47,9 +50,6 @@
 				theatre can into the VR Space.
 			</p>
 		</DoubleBorder>
-	</Column>
-	<Column noResize>
-		<Slideshow sources={theMidnightOperaImages} title="The Midnight Opera" width={400} />
 	</Column>
 </Columns>
 

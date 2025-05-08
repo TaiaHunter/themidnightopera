@@ -18,7 +18,10 @@
 	</p>
 </DoubleBorder>
 <h1 id="selene">Selene</h1>
-<Columns>
+<Columns reversed>
+	<Column noResize>
+		<SingleImage source="avatars/selene.png" title="Selene" width={300} />
+	</Column>
 	<Column weight={1}>
 		<DoubleBorder>
 			<p>Selene is our female avatar available to use at our events.</p>
@@ -27,9 +30,6 @@
 				worked into a useable form by KoshoKreations.
 			</p>
 		</DoubleBorder>
-	</Column>
-	<Column noResize>
-		<SingleImage source="avatars/selene.png" title="Selene" width={300} />
 	</Column>
 </Columns>
 

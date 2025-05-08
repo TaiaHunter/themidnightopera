@@ -8,7 +8,10 @@
 </script>
 
 <h1>Social Media</h1>
-<Columns>
+<Columns reversed>
+	<Column noResize>
+		<SingleImage source="social-media.png" title="Social Media" width={200} />
+	</Column>
 	<Column weight={1}>
 		<DoubleBorder>
 			<p>You can find videos, images and more of past and future events here!</p>
@@ -18,8 +21,5 @@
 				<Button link="https://x.com/midnightoperavr" newTab>Twitter</Button>
 			</Row>
 		</DoubleBorder>
-	</Column>
-	<Column noResize>
-		<SingleImage source="social-media.png" title="Social Media" width={200} />
 	</Column>
 </Columns>
