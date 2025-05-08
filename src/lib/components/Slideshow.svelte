@@ -6,11 +6,11 @@
 
 	let index: number = $state(0);
 
-	/* function changeSource(direction: Direction, event: Event) {
+	function changeSource(direction: Direction) {
 		switch (DirectionReverse[direction as Direction]) {
 			case Direction.Next:
 				index++;
-				if (index > sources.length) {
+				if (index >= sources.length) {
 					index = 0;
 				}
 				break;
@@ -18,29 +18,15 @@
 				index--;
 
 				if (index < 0) {
-					index = sources.length;
+					index = sources.length - 1;
 				}
 				break;
 		}
-	} */
-	const incrementSource = () => {
-		index++;
-		if (index >= sources.length) {
-			index = 0;
-		}
-	};
-
-	const decrementSource = () => {
-		index--;
-
-		if (index < 0) {
-			index = sources.length - 1;
-		}
-	};
+	}
 </script>
 
 <div class="slideshow-container">
-	<button aria-label="previous" onclick={decrementSource}>
+	<button aria-label="previous" onclick={() => changeSource(Direction.Back)}>
 		<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
 			<g stroke="currentColor" stroke-width="20" stroke-linecap="square">
 				<line x1="97.5" y1="2.5" x2="2.5" y2="50" />
@@ -49,7 +35,7 @@
 		</svg>
 	</button>
 	<img src={sources[index]} style={width ? `max-width: ${width}px` : ''} alt={title} />
-	<button aria-label="next" onclick={incrementSource}>
+	<button aria-label="next" onclick={() => changeSource(Direction.Next)}>
 		<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
 			<g stroke="currentColor" stroke-width="20" stroke-linecap="square">
 				<line x1="2.5" y1="2.5" x2="97.5" y2="50" />
