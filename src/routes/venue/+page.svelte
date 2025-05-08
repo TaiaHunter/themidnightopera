@@ -55,6 +55,9 @@
 
 <h1 id="taia-hunter-productions">Taia Hunter Productions</h1>
 <Columns>
+	<Column noResize>
+		<Slideshow sources={taiaHunterProductionsImages} title="The Midnight Opera" width={400} />
+	</Column>
 	<Column weight={1}>
 		<DoubleBorder>
 			<p>
@@ -67,8 +70,5 @@
 			</p>
 			<p>At the moment the world is still in the very early stages, and not open to the public.</p>
 		</DoubleBorder>
-	</Column>
-	<Column noResize>
-		<Slideshow sources={taiaHunterProductionsImages} title="The Midnight Opera" width={400} />
 	</Column>
 </Columns>
