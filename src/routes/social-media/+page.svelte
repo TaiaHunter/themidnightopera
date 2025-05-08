@@ -8,7 +8,7 @@
 </script>
 
 <h1>Social Media</h1>
-<Columns reversed>
+<Columns>
 	<Column noResize>
 		<SingleImage source="social-media.png" title="Social Media" width={200} />
 	</Column>
