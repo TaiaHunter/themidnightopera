@@ -23,7 +23,7 @@
 		<DoubleBorder>
 			<p>Selene is our female avatar available to use at our events.</p>
 			<p>
-				She was designed by the Founder and Owner of The Midnight Opera herself, Taia Huntercat, and
+				She was designed by the Founder and Owner of The Midnight Opera herself, Taia_Hunter, and
 				worked into a useable form by KoshoKreations.
 			</p>
 		</DoubleBorder>
@@ -42,8 +42,8 @@
 		<DoubleBorder>
 			<p>We are currently working on commissioning a working male avatar for public use.</p>
 			<p>
-				This avatar was designed by Taia Huntercat (Founder and Owner of The Midngiht Opera) and
-				will be brought to life by KoshoKreations.
+				This avatar was designed by Taia_Hunter (Founder and Owner of The Midnight Opera) and will
+				be brought to life by KoshoKreations.
 			</p>
 		</DoubleBorder>
 	</Column>
