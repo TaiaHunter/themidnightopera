@@ -30,7 +30,7 @@
 	];
 </script>
 
-<h1 id="The Midnight Opera">The Midnight Opera</h1>
+<h1 id="the-midnight-opera">The Midnight Opera</h1>
 <Columns>
 	<Column weight={1}>
 		<DoubleBorder>
@@ -53,7 +53,7 @@
 	</Column>
 </Columns>
 
-<h1 id="Taia Hunter Productions">Taia Hunter Productions</h1>
+<h1 id="taia-hunter-productions">Taia Hunter Productions</h1>
 <Columns>
 	<Column weight={1}>
 		<DoubleBorder>
