@@ -1,8 +1,10 @@
 <script lang="ts">
-	let { children } = $props();
+	import type { ColumnsComponents } from '$lib/types';
+
+	let { reversed, children }: ColumnsComponents = $props();
 </script>
 
-<div class="columns">
+<div class="columns" style={reversed ? '--flex-direction: row-reverse' : '--flex-direction: row'}>
 	{@render children()}
 </div>
 
@@ -10,6 +12,7 @@
 	div {
 		display: flex;
 		text-align: center;
+		flex-direction: var(--flex-direction);
 	}
 
 	@media (max-width: 480px) {

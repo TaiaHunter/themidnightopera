@@ -15,6 +15,11 @@ export type SlideshowComponents = {
 	title: string;
 };
 
+export type ColumnsComponents = {
+	reversed?: boolean;
+	children: any;
+};
+
 export type ColumnComponents = {
 	weight?: number;
 	children: any;
