@@ -75,7 +75,7 @@
 	img:first-of-type {
 		margin: 12px;
 		align-self: center;
-		width: 100%;
+		width: calc(100% - 24px);
 		border: 6px solid #ffcc6f;
 		box-sizing: border-box;
 	}
