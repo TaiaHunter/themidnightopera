@@ -5,27 +5,54 @@
 	let { sources, width, title }: SlideshowComponents = $props();
 
 	let index: number = $state(0);
+	let newIndex: number = $state(0);
+	let frontImage: HTMLImageElement;
+	let backImage: HTMLImageElement;
+	let frontImageClass: string = $state('');
 
 	function changeSource(direction: Direction) {
+		if (frontImageClass == 'changing') {
+			return;
+		}
 		switch (DirectionReverse[direction as Direction]) {
 			case Direction.Next:
-				index++;
-				if (index >= sources.length) {
-					index = 0;
+				newIndex = index;
+				newIndex++;
+				if (newIndex >= sources.length) {
+					newIndex = 0;
 				}
 				break;
 			case Direction.Back:
-				index--;
+				newIndex = index;
+				newIndex--;
 
-				if (index < 0) {
-					index = sources.length - 1;
+				if (newIndex < 0) {
+					newIndex = sources.length - 1;
 				}
 				break;
 		}
+		frontImageClass = 'changing';
+		setTimeout(() => {
+			index = newIndex;
+			frontImageClass = '';
+		}, 1000);
 	}
 </script>
 
 <div class="slideshow-container">
+	<img
+		bind:this={backImage}
+		src={sources[index]}
+		style={width ? `max-width: ${width}px` : ''}
+		alt={title}
+	/>
+	<img
+		bind:this={frontImage}
+		src={sources[newIndex]}
+		style={width ? `max-width: ${width}px` : ''}
+		alt={title}
+		class={frontImageClass}
+	/>
 	<button aria-label="previous" onclick={() => changeSource(Direction.Back)}>
 		<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
 			<g stroke="currentColor" stroke-width="20" stroke-linecap="square">
@@ -34,7 +61,6 @@
 			</g>
 		</svg>
 	</button>
-	<img src={sources[index]} style={width ? `max-width: ${width}px` : ''} alt={title} />
 	<button aria-label="next" onclick={() => changeSource(Direction.Next)}>
 		<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
 			<g stroke="currentColor" stroke-width="20" stroke-linecap="square">
@@ -46,12 +72,23 @@
 </div>
 
 <style>
-	img {
+	img:first-of-type {
 		margin: 12px;
 		align-self: center;
 		width: 100%;
 		border: 6px solid #ffcc6f;
 		box-sizing: border-box;
+	}
+	img:last-of-type {
+		opacity: 0;
+		position: absolute;
+		left: 17.5px;
+		top: 17.5px;
+		width: calc(100% - 35px);
+		&.changing {
+			opacity: 1;
+			transition: opacity 1s;
+		}
 	}
 	.slideshow-container {
 		width: fit-content;
