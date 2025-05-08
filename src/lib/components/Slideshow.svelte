@@ -66,7 +66,6 @@
 		top: 50%;
 		width: 30px;
 		height: 40px;
-		display: flex;
 		background-color: rgba(255, 204, 111, 50%);
 		border: 4px solid #ffcc6f;
 		display: flex;
