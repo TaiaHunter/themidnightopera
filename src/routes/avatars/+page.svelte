@@ -36,7 +36,7 @@
 <h1>Male Avatar</h1>
 <Columns>
 	<Column noResize>
-		<SingleImage source="avatars/selene.png" title="Selene" width={300} />
+		<SingleImage source="avatars/Male Avi.png" title="Selene" width={300} />
 	</Column>
 	<Column weight={1}>
 		<DoubleBorder>
