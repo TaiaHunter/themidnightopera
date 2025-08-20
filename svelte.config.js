@@ -10,11 +10,7 @@ const config = {
 			fallback: undefined,
 			precompress: false,
 			strict: true
-		}),
-		paths: {
-			// set base path if needed
-			base: process.env.NODE_ENV === 'production' ? '' : ''
-		}
+		})
 	},
 	preprocess: vitePreprocess()
 };
