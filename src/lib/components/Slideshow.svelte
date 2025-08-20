@@ -54,40 +54,32 @@
 		class={frontImageClass}
 	/>
 	<button aria-label="previous" onclick={() => changeSource(Direction.Back)}>
-		<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
-			<g stroke="currentColor" stroke-width="20" stroke-linecap="square">
-				<line x1="97.5" y1="2.5" x2="2.5" y2="50" />
-				<line x1="97.5" y1="97.5" x2="2.5" y2="50" />
-			</g>
-		</svg>
+		<img class="previous-arrow" src="arrow_4_cropped.png" alt="previous" />
 	</button>
 	<button aria-label="next" onclick={() => changeSource(Direction.Next)}>
-		<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
-			<g stroke="currentColor" stroke-width="20" stroke-linecap="square">
-				<line x1="2.5" y1="2.5" x2="97.5" y2="50" />
-				<line x1="2.5" y1="97.5" x2="97.5" y2="50" />
-			</g>
-		</svg>
-	</button>
+		<img src="arrow_4_cropped.png" alt="next" /></button
+	>
 </div>
 
 <style>
-	img:first-of-type {
-		margin: 12px;
-		align-self: center;
-		width: calc(100% - 24px);
-		border: 6px solid #ffcc6f;
-		box-sizing: border-box;
-	}
-	img:last-of-type {
-		opacity: 0;
-		position: absolute;
-		left: 17.5px;
-		top: 17.5px;
-		width: calc(100% - 35px);
-		&.changing {
-			opacity: 1;
-			transition: opacity 1s;
+	div {
+		& > img:first-of-type {
+			margin: 12px;
+			align-self: center;
+			width: calc(100% - 24px);
+			border: 6px solid #ffcc6f;
+			box-sizing: border-box;
+		}
+		& > img:last-of-type {
+			opacity: 0;
+			position: absolute;
+			left: 17.5px;
+			top: 17.5px;
+			width: calc(100% - 35px);
+			&.changing {
+				opacity: 1;
+				transition: opacity 1s;
+			}
 		}
 	}
 	.slideshow-container {
@@ -98,13 +90,12 @@
 	button {
 		appearance: none;
 		padding: 0px;
-		color: #ffcc6f;
+		background: none;
 		position: absolute;
 		top: 50%;
-		width: 30px;
+		width: 40px;
 		height: 40px;
-		background-color: rgba(255, 204, 111, 50%);
-		border: 4px solid #ffcc6f;
+		border: none;
 		display: flex;
 		justify-content: center;
 		transform: translate(0px, -20px);
@@ -114,9 +105,19 @@
 		&:last-of-type {
 			right: 22px;
 		}
-		& > svg {
-			width: 60%;
-			height: auto;
+		& > img {
+			width: 100%;
+			object-fit: contain;
+			transform: scale(0.9);
+			&:hover {
+				transform: scale(1);
+			}
+			&.previous-arrow {
+				transform: scale(-0.9, 0.9);
+				&:hover {
+					transform: scale(-1, 1);
+				}
+			}
 		}
 		&:hover {
 			cursor: pointer;
