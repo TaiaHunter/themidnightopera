@@ -6,27 +6,27 @@
 	import SingleImage from '$lib/components/SingleImage.svelte';
 
 	const theMidnightOperaImages: string[] = [
-		'/venues/the-midnight-opera/img1.png',
-		'/venues/the-midnight-opera/img2.png',
-		'/venues/the-midnight-opera/img3.png',
-		'/venues/the-midnight-opera/img4.png',
-		'/venues/the-midnight-opera/img5.png',
-		'/venues/the-midnight-opera/img6.png',
-		'/venues/the-midnight-opera/img7.png',
-		'/venues/the-midnight-opera/img8.png'
+		`${import.meta.env.BASE_URL}venues/the-midnight-opera/img1.png`,
+		`${import.meta.env.BASE_URL}venues/the-midnight-opera/img2.png`,
+		`${import.meta.env.BASE_URL}venues/the-midnight-opera/img3.png`,
+		`${import.meta.env.BASE_URL}venues/the-midnight-opera/img4.png`,
+		`${import.meta.env.BASE_URL}venues/the-midnight-opera/img5.png`,
+		`${import.meta.env.BASE_URL}venues/the-midnight-opera/img6.png`,
+		`${import.meta.env.BASE_URL}venues/the-midnight-opera/img7.png`,
+		`${import.meta.env.BASE_URL}venues/the-midnight-opera/img8.png`
 	];
 
 	const taiaHunterProductionsImages: string[] = [
-		'/venues/taia-hunter-productions/img1.png',
-		'/venues/taia-hunter-productions/img2.png',
-		'/venues/taia-hunter-productions/img3.png',
-		'/venues/taia-hunter-productions/img4.png',
-		'/venues/taia-hunter-productions/img5.png',
-		'/venues/taia-hunter-productions/img6.png',
-		'/venues/taia-hunter-productions/img7.png',
-		'/venues/taia-hunter-productions/img8.png',
-		'/venues/taia-hunter-productions/img9.png',
-		'/venues/taia-hunter-productions/img10.png'
+		`${import.meta.env.BASE_URL}venues/taia-hunter-productions/img1.png`,
+		`${import.meta.env.BASE_URL}venues/taia-hunter-productions/img2.png`,
+		`${import.meta.env.BASE_URL}venues/taia-hunter-productions/img3.png`,
+		`${import.meta.env.BASE_URL}venues/taia-hunter-productions/img4.png`,
+		`${import.meta.env.BASE_URL}venues/taia-hunter-productions/img5.png`,
+		`${import.meta.env.BASE_URL}venues/taia-hunter-productions/img6.png`,
+		`${import.meta.env.BASE_URL}venues/taia-hunter-productions/img7.png`,
+		`${import.meta.env.BASE_URL}venues/taia-hunter-productions/img8.png`,
+		`${import.meta.env.BASE_URL}venues/taia-hunter-productions/img9.png`,
+		`${import.meta.env.BASE_URL}venues/taia-hunter-productions/img10.png`
 	];
 </script>
 

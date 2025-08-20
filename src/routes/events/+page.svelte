@@ -42,7 +42,10 @@
 	*Displaying events in the local timezone for {userTimeZone}.
 </p>
 <h1>Upcoming Solo Performance</h1>
-<SingleImage source="events/adzy_slayer.webp" title="Upcoming Solo Performance" width={300}
+<SingleImage
+	source="{import.meta.env.BASE_URL}events/adzy_slayer.webp"
+	title="Upcoming Solo Performance"
+	width={300}
 ></SingleImage>
 
 <style>

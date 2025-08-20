@@ -1,1 +1,0 @@
-import"./CWj6FrbW.js";import{t as s,c as i,Z as o,r as p,a as d}from"./gQ13yUI5.js";var v=s('<div class="svelte-qbtq09"><!></div>');function l(t,e){var a=v(),r=i(a);o(r,()=>e.children),p(a),d(t,a)}export{l as R};

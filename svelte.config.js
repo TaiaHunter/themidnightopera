@@ -3,10 +3,16 @@ import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 const config = {
 	kit: {
-		adapter: adapter(),
+		adapter: adapter({
+			// change build output dir to /docs
+			pages: 'docs',
+			assets: 'docs',
+			fallback: undefined,
+			precompress: false,
+			strict: true
+		}),
 		paths: {
-			// If your repo is a project page (username.github.io/repo-name)
-			// set this to '/repo-name'. If it's a user/organization page, leave it as ''.
+			// set base path if needed
 			base: process.env.NODE_ENV === 'production' ? '/themidnightopera' : ''
 		}
 	},

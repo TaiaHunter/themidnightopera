@@ -1,0 +1,1 @@
+import"./CWj6FrbW.js";import{t as l,Z as d,b as n,d as t,r as a}from"./pGVvsazS.js";var v=l('<section class="svelte-104iluh"><div class="textbox svelte-104iluh"><!></div></section>');function h(i,o){var e=v(),s=t(e),r=t(s);d(r,()=>o.children),a(s),a(e),n(i,e)}export{h as D};

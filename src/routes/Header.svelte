@@ -4,11 +4,15 @@
 
 <header>
 	<div class="header">
-		<img class="masks-and-roses" src="/header/mask_left.png" alt="The Midnight Opera Header Left" />
+		<img
+			class="masks-and-roses"
+			src="{import.meta.env.BASE_URL}header/mask_left.png"
+			alt="The Midnight Opera Header Left"
+		/>
 		<h1>The Midnight Opera</h1>
 		<img
 			class="masks-and-roses"
-			src="/header/mask_right.png"
+			src="{import.meta.env.BASE_URL}header/mask_right.png"
 			alt="The Midnight Opera Header Right"
 		/>
 	</div>
