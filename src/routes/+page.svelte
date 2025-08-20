@@ -1,6 +1,7 @@
 <script lang="ts">
 	import SingleImage from '$lib/components/SingleImage.svelte';
 	import DoubleBorder from '$lib/components/DoubleBorder.svelte';
+	import Button from '$lib/components/Button.svelte';
 </script>
 
 <SingleImage source="/opera-info.png" title="Opera Info" width={300} />
@@ -10,6 +11,7 @@
 		The Midnight Opera is an adult-only VRChat group that focuses on social events and live
 		performances, ranging from acting and poetry to singing and dancing.
 	</p>
+	<Button link="https://vrc.group/MOPERA.1862" newTab>Join Our Group</Button>
 </DoubleBorder>
 <h1>Our Features</h1>
 <DoubleBorder>
