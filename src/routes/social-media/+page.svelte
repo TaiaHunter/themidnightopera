@@ -10,11 +10,7 @@
 <h1>Social Media</h1>
 <Columns>
 	<Column noResize>
-		<SingleImage
-			source="{import.meta.env.BASE_URL}social-media.webp"
-			title="Social Media"
-			width={200}
-		/>
+		<SingleImage source="/social-media.webp" title="Social Media" width={200} />
 	</Column>
 	<Column weight={1}>
 		<DoubleBorder>

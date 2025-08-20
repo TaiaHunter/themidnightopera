@@ -12,19 +12,15 @@
 		That's why we commissioned our own custom avatars that are currently available for public use.
 	</p>
 	<p>
-		You can clone our avatars from our main venue, <a
-			href="{import.meta.env.BASE_URL}venue#the-midnight-opera">The Midnight Opera</a
+		You can clone our avatars from our main venue, <a href="/venue#the-midnight-opera"
+			>The Midnight Opera</a
 		>.
 	</p>
 </DoubleBorder>
 <h1 id="selene">Selene</h1>
 <Columns reversed>
 	<Column noResize>
-		<SingleImage
-			source="{import.meta.env.BASE_URL}avatars/selene.webp"
-			title="Selene"
-			width={300}
-		/>
+		<SingleImage source="/avatars/selene.webp" title="Selene" width={300} />
 	</Column>
 	<Column weight={1}>
 		<DoubleBorder>
@@ -40,11 +36,7 @@
 <h1>Male Avatar</h1>
 <Columns>
 	<Column noResize>
-		<SingleImage
-			source="{import.meta.env.BASE_URL}avatars/Male Avi.webp"
-			title="Selene"
-			width={300}
-		/>
+		<SingleImage source="/avatars/Male Avi.webp" title="Selene" width={300} />
 	</Column>
 	<Column weight={1}>
 		<DoubleBorder>

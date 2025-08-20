@@ -4,7 +4,7 @@
 	import Button from '$lib/components/Button.svelte';
 </script>
 
-<SingleImage source="{import.meta.env.BASE_URL}opera-info.webp" title="Opera Info" width={300} />
+<SingleImage source="/opera-info.webp" title="Opera Info" width={300} />
 
 <DoubleBorder>
 	<p>

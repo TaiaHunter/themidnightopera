@@ -5,10 +5,9 @@
 	// svelte-ignore non_reactive_update
 	let path: string;
 	if (isHomePage) {
-		path = import.meta.env.BASE_URL;
+		path = '/';
 	} else {
-		path =
-			import.meta.env.BASE_URL + pageName.toLowerCase().replaceAll(' ', '-').replaceAll('&', 'and');
+		path = '/' + pageName.toLowerCase().replaceAll(' ', '-').replaceAll('&', 'and');
 	}
 </script>
 

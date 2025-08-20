@@ -1,1 +1,0 @@
-import"./CWj6FrbW.js";import{t as m,a as s,b as r}from"./pGVvsazS.js";import{s as e}from"./kzwydLSS.js";import{s as o}from"./CN490MM7.js";var l=m('<img class="svelte-1iact7d">');function n(i,t){var a=l();s(()=>{e(a,"src",t.source),o(a,t.width?`max-width: ${t.width}px`:""),e(a,"alt",t.title)}),r(i,a)}export{n as S};
