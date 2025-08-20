@@ -13,7 +13,7 @@ const config = {
 		}),
 		paths: {
 			// set base path if needed
-			base: process.env.NODE_ENV === 'production' ? '/themidnightopera' : ''
+			base: process.env.NODE_ENV === 'production' ? '' : ''
 		}
 	},
 	preprocess: vitePreprocess()
