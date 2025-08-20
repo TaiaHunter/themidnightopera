@@ -20,7 +20,11 @@
 <h1 id="selene">Selene</h1>
 <Columns reversed>
 	<Column noResize>
-		<SingleImage source="{import.meta.env.BASE_URL}avatars/selene.png" title="Selene" width={300} />
+		<SingleImage
+			source="{import.meta.env.BASE_URL}avatars/selene.webp"
+			title="Selene"
+			width={300}
+		/>
 	</Column>
 	<Column weight={1}>
 		<DoubleBorder>
@@ -37,7 +41,7 @@
 <Columns>
 	<Column noResize>
 		<SingleImage
-			source="{import.meta.env.BASE_URL}avatars/Male Avi.png"
+			source="{import.meta.env.BASE_URL}avatars/Male Avi.webp"
 			title="Selene"
 			width={300}
 		/>

@@ -6,13 +6,13 @@
 	<div class="header">
 		<img
 			class="masks-and-roses"
-			src="{import.meta.env.BASE_URL}header/mask_left.png"
+			src="{import.meta.env.BASE_URL}header/mask_left.webp"
 			alt="The Midnight Opera Header Left"
 		/>
 		<h1>The Midnight Opera</h1>
 		<img
 			class="masks-and-roses"
-			src="{import.meta.env.BASE_URL}header/mask_right.png"
+			src="{import.meta.env.BASE_URL}header/mask_right.webp"
 			alt="The Midnight Opera Header Right"
 		/>
 	</div>

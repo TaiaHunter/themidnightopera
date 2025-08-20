@@ -6,27 +6,27 @@
 	import SingleImage from '$lib/components/SingleImage.svelte';
 
 	const theMidnightOperaImages: string[] = [
-		`${import.meta.env.BASE_URL}venues/the-midnight-opera/img1.png`,
-		`${import.meta.env.BASE_URL}venues/the-midnight-opera/img2.png`,
-		`${import.meta.env.BASE_URL}venues/the-midnight-opera/img3.png`,
-		`${import.meta.env.BASE_URL}venues/the-midnight-opera/img4.png`,
-		`${import.meta.env.BASE_URL}venues/the-midnight-opera/img5.png`,
-		`${import.meta.env.BASE_URL}venues/the-midnight-opera/img6.png`,
-		`${import.meta.env.BASE_URL}venues/the-midnight-opera/img7.png`,
-		`${import.meta.env.BASE_URL}venues/the-midnight-opera/img8.png`
+		`${import.meta.env.BASE_URL}venues/the-midnight-opera/img1.webp`,
+		`${import.meta.env.BASE_URL}venues/the-midnight-opera/img2.webp`,
+		`${import.meta.env.BASE_URL}venues/the-midnight-opera/img3.webp`,
+		`${import.meta.env.BASE_URL}venues/the-midnight-opera/img4.webp`,
+		`${import.meta.env.BASE_URL}venues/the-midnight-opera/img5.webp`,
+		`${import.meta.env.BASE_URL}venues/the-midnight-opera/img6.webp`,
+		`${import.meta.env.BASE_URL}venues/the-midnight-opera/img7.webp`,
+		`${import.meta.env.BASE_URL}venues/the-midnight-opera/img8.webp`
 	];
 
 	const taiaHunterProductionsImages: string[] = [
-		`${import.meta.env.BASE_URL}venues/taia-hunter-productions/img1.png`,
-		`${import.meta.env.BASE_URL}venues/taia-hunter-productions/img2.png`,
-		`${import.meta.env.BASE_URL}venues/taia-hunter-productions/img3.png`,
-		`${import.meta.env.BASE_URL}venues/taia-hunter-productions/img4.png`,
-		`${import.meta.env.BASE_URL}venues/taia-hunter-productions/img5.png`,
-		`${import.meta.env.BASE_URL}venues/taia-hunter-productions/img6.png`,
-		`${import.meta.env.BASE_URL}venues/taia-hunter-productions/img7.png`,
-		`${import.meta.env.BASE_URL}venues/taia-hunter-productions/img8.png`,
-		`${import.meta.env.BASE_URL}venues/taia-hunter-productions/img9.png`,
-		`${import.meta.env.BASE_URL}venues/taia-hunter-productions/img10.png`
+		`${import.meta.env.BASE_URL}venues/taia-hunter-productions/img1.webp`,
+		`${import.meta.env.BASE_URL}venues/taia-hunter-productions/img2.webp`,
+		`${import.meta.env.BASE_URL}venues/taia-hunter-productions/img3.webp`,
+		`${import.meta.env.BASE_URL}venues/taia-hunter-productions/img4.webp`,
+		`${import.meta.env.BASE_URL}venues/taia-hunter-productions/img5.webp`,
+		`${import.meta.env.BASE_URL}venues/taia-hunter-productions/img6.webp`,
+		`${import.meta.env.BASE_URL}venues/taia-hunter-productions/img7.webp`,
+		`${import.meta.env.BASE_URL}venues/taia-hunter-productions/img8.webp`,
+		`${import.meta.env.BASE_URL}venues/taia-hunter-productions/img9.webp`,
+		`${import.meta.env.BASE_URL}venues/taia-hunter-productions/img10.webp`
 	];
 </script>
 

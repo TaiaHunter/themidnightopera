@@ -11,7 +11,7 @@
 <Columns>
 	<Column noResize>
 		<SingleImage
-			source="{import.meta.env.BASE_URL}social-media.png"
+			source="{import.meta.env.BASE_URL}social-media.webp"
 			title="Social Media"
 			width={200}
 		/>

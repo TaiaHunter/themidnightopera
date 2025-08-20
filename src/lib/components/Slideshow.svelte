@@ -54,10 +54,10 @@
 		class={frontImageClass}
 	/>
 	<button aria-label="previous" onclick={() => changeSource(Direction.Back)}>
-		<img class="previous-arrow" src="arrow_4_cropped.png" alt="previous" />
+		<img class="previous-arrow" src="arrow_4_cropped.webp" alt="previous" />
 	</button>
 	<button aria-label="next" onclick={() => changeSource(Direction.Next)}>
-		<img src="arrow_4_cropped.png" alt="next" /></button
+		<img src="arrow_4_cropped.webp" alt="next" /></button
 	>
 </div>
 
