@@ -1,16 +1,12 @@
-import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
+import adapter from 'svelte-adapter-github';
 
 const config = {
 	kit: {
 		adapter: adapter({
-			// change build output dir to /docs
-			pages: 'docs',
-			assets: 'docs',
-			fallback: undefined,
-			precompress: false,
-			strict: true
+			domain: 'themidnightopera.com'
 		})
+		// No need to set paths.base, the adapter handles it
 	},
 	preprocess: vitePreprocess()
 };
