@@ -38,10 +38,10 @@
 			</p>
 		</div>
 		<div>
-			<h1>Movie Nights</h1>
+			<h1>Charity Events</h1>
 			<p>
-				From time to time, we’ll all get together and watch a movie during our bar night that’s also
-				in theme with the main event.
+				Once a year we host a masquerade charity ball to raise money for The American Heart Association.
+				We also plan for more large events to focus on other charities as things grow and expand.
 			</p>
 		</div>
 		<div>
