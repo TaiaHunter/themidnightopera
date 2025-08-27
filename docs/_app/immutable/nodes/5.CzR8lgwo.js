@@ -1,2 +1,0 @@
-import"../chunks/CWj6FrbW.js";import"../chunks/T_VAVAQD.js";import{t as a,s as n,f as p,a as t,n as d}from"../chunks/gQ13yUI5.js";import{D as m}from"../chunks/B3mACoAO.js";var h=a(`<p>Website coded by <a href="https://gozarproductions.com" target="_blank">Erika Gozar</a> and edited
-		by Taia_Hunter.</p> <p>Insert other things like this.</p>`,1),f=a("<h1>Credits</h1> <!>",1);function v(o){var r=f(),e=n(p(r),2);m(e,{children:(i,l)=>{var s=h();d(2),t(i,s)}}),t(o,r)}export{v as component};
