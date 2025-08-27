@@ -7,6 +7,5 @@
 	<p>
 		Website coded by <a href="https://gozarproductions.com" target="_blank">Erika Gozar</a> and edited
 		by Taia_Hunter.
-	</p>
-	<p>Insert other things like this.</p>
+	</p>n
 </DoubleBorder>
