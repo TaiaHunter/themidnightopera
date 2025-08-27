@@ -48,6 +48,8 @@
 			<p>
 				At the end of the day, we are a theatre and hope to bring magic and imagination that a real
 				theatre can into the VR Space.
+
+				<a href="https://vrchat.com/home/launch?worldId=wrld_f07759a4-85a2-40ab-98cf-e646634ecddd">You can visit here!</a>
 			</p>
 		</DoubleBorder>
 	</Column>
