@@ -70,7 +70,10 @@
 				THP is meant to be for the Wednesday bar nights only. A smaller venue as well as an art
 				gallery, featuring Taia's work.
 			</p>
-			<p>At the moment the world is still in the very early stages, and not open to the public.</p>
+			<p>At the moment the world is still in the very early stages, so it is still in the works.
+
+				<a href="https://vrchat.com/home/launch?worldId=wrld_a81b8c3d-7860-4732-a3a3-57915d250476">However you can visit it here!</a>
+			</p>
 		</DoubleBorder>
 	</Column>
 </Columns>
