@@ -25,13 +25,13 @@
 		<Row>
 			<Button link="https://discord.com/users/590786211132604425" newTab>Founder's Discord</Button>
 			<Button link="mailto:themidnightopera@gmail.com">Email</Button>
-			<Button link="https://discord.gg/nU7jwzAPMu" newTab>Join Our Discord</Button>
+			<Button link="https://discord.gg/nU7jwzAPMu;theme=dark" newTab>Join Our Discord</Button>
 		</Row>
 	</Column>
 	<Column noResize
 		><iframe
 			title="Discord"
-			src="https://discord.com/widget?id=1195256631487889438&amp;theme=dark"
+			src="https://discord.gg/nU7jwzAPMu;theme=dark"
 			width={350}
 			height={500}
 			allowtransparency={true}
