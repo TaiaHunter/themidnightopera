@@ -12,6 +12,7 @@
 		performances, ranging from acting and poetry to singing and dancing.
 	</p>
 	<Button link="https://vrc.group/MOPERA.1862" newTab>Join Our Group</Button>
+	<Button link="https://discord.gg/5RR2MdnfuD" newTab>Join Our Discord</Button>
 </DoubleBorder>
 <h1>Our Features</h1>
 <DoubleBorder>
