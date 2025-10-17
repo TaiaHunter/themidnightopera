@@ -25,11 +25,9 @@
 		<Row>
 			<Button link="https://discord.com/users/590786211132604425" newTab>Founder's Discord</Button>
 			<Button link="mailto:themidnightopera@gmail.com">Email</Button>
-<<<<<<< HEAD
+
 			<Button link="https://discord.gg/5RR2MdnfuD" newTab>Join Our Discord</Button>
-=======
-			<Button link="https://discord.gg/nU7jwzAPMu;theme=dark" newTab>Join Our Discord</Button>
->>>>>>> e835e6c521fc766c544384f88edad26425445149
+
 		</Row>
 	</Column>
 	<Column noResize
