@@ -1,1 +1,0 @@
-import{t as s,a as e}from"./U9ppzYDJ.js";import{c as i,r as p}from"./kWVL8g5V.js";import{s as d}from"./Dm32-MYc.js";var m=s('<div class="svelte-qbtq09"><!></div>');function l(a,t){var r=m(),o=i(r);d(o,()=>t.children),p(r),e(a,r)}export{l as R};
