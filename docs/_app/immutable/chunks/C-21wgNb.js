@@ -1,0 +1,1 @@
+import{t as l,a as c}from"./U9ppzYDJ.js";import{c as t,r as o}from"./kWVL8g5V.js";import{s as n}from"./Dm32-MYc.js";var p=l('<section class="svelte-104iluh"><div class="textbox svelte-104iluh"><!></div></section>');function f(r,a){var e=p(),s=t(e),i=t(s);n(i,()=>a.children),o(s),o(e),c(r,e)}export{f as D};

@@ -61,4 +61,12 @@
 			gap: 0.8em;
 		}
 	}
+    @media (max-width: 575px) {
+        img.masks-and-roses:last-of-type {
+            display: none;
+        }
+        div.header > h1 {
+            margin-right: 20px;
+        }
+    }
 </style>
