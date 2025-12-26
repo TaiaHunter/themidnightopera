@@ -40,7 +40,6 @@
 	</Column>
 	<Column weight={1}>
 		<DoubleBorder>
-			<p>We are currently working on commissioning a working male avatar for public use.</p>
 			<p>
 			He was designed by the Founder and Owner of The Midnight Opera herself, Taia_Hunter, and
 			worked into a useable form by WraithBaby.	
