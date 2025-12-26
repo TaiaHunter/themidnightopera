@@ -20,6 +20,11 @@
 				<Button link="https://www.tiktok.com/@themidnightopera" newTab>TikTok</Button>
 				<Button link="https://x.com/midnightoperavr" newTab>Twitter</Button>
 			</Row>
+			<Row>
+				<Button link="https://www.instagram.com/themidnightopera/" newTab>Instagram</Button>
+				<Button link="https://www.threads.com/@themidnightopera" newTab>Threads</Button>
+				<Button link="https://x.com/https://bsky.app/profile/midnightopera.bsky.social" newTab>TwitterBluesky</Button>
+			</Row>
 		</DoubleBorder>
 	</Column>
 </Columns>
