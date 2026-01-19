@@ -23,7 +23,7 @@
 			<Row>
 				<Button link="https://www.instagram.com/themidnightopera/" newTab>Instagram</Button>
 				<Button link="https://www.threads.com/@themidnightopera" newTab>Threads</Button>
-				<Button link="https://x.com/https://bsky.app/profile/midnightopera.bsky.social" newTab>Bluesky</Button>
+				<Button link="https://bsky.app/profile/midnightopera.bsky.social" newTab>Bluesky</Button>
 			</Row>
 		</DoubleBorder>
 	</Column>
