@@ -39,7 +39,7 @@
 			</p>
 		</div>
 		<div>
-			<h1>Charity Events</h1>
+			<h1>The Midnight Masquerade</h1>
 			<p>
 				Once a year we host a masquerade charity ball to raise money for The American Heart Association.
 				We also plan for more large events to focus on other charities as things grow and expand.
