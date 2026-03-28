@@ -42,7 +42,7 @@
 	*Displaying events in the local timezone for {userTimeZone}.
 </p>
 <h1>Upcoming Large Event</h1>
-<SingleImage source="/events/masquerade.webp" title="Upcoming Solo Performance" width={300}
+<SingleImage source="masquerade.webp" title="Upcoming Solo Performance" width={300}
 ></SingleImage>
 
 <style>
