@@ -12,7 +12,7 @@
 		performances, ranging from acting and poetry to singing and dancing.
 	</p>
 	<Button link="https://vrc.group/MOPERA.1862" newTab>Join Our Group</Button>
-	<Button link="https://discord.gg/5RR2MdnfuD" newTab>Join Our Discord</Button>
+	<Button link="https://discord.gg/HHAWpYJxJj" newTab>Join Our Discord</Button>
 </DoubleBorder>
 <h1>Our Features</h1>
 <DoubleBorder>
@@ -39,10 +39,13 @@
 			</p>
 		</div>
 		<div>
-			<h1>Charity Events</h1>
+			<h1>The Midnight Masquerade</h1>
 			<p>
-				Once a year we host a masquerade charity ball to raise money for The American Heart Association.
-				We also plan for more large events to focus on other charities as things grow and expand.
+				Our yearly charity event to raise money for The American Heart Association! 
+				Live performances, aid from the fae, fashion shows and more! 
+				As well as 2 instances from the get go. One 18+ verified and one 13+
+				April 17h-19th. 7pm CST til midnight CST each night.
+				<a href="https://vrc.group/MASKMO.3797" target="_blank">Join MASKMO.3797 to get in!</a>
 			</p>
 		</div>
 		<div>
