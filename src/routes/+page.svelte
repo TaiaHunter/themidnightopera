@@ -13,7 +13,7 @@
 	</p>
 	<Button link="https://vrc.group/MOPERA.1862" newTab>Join Our Group</Button>
 	<Button link="https://discord.gg/HHAWpYJxJj" newTab>Join Our Discord</Button>
-	<Button link="https://linktr.ee/pridevrc?utm_source=linktree_profile_share&ltsid=76d47a69-95f0-4888-b6eb-aad48396517a" newTab>Donate to the Trevor Project</Button>
+	
 </DoubleBorder>
 <h1>Our Features</h1>
 <DoubleBorder>
