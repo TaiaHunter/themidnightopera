@@ -13,6 +13,7 @@
 	</p>
 	<Button link="https://vrc.group/MOPERA.1862" newTab>Join Our Group</Button>
 	<Button link="https://discord.gg/HHAWpYJxJj" newTab>Join Our Discord</Button>
+	<Button link="https://linktr.ee/jackknifestalentshow" newTab>Jacknife's Talent Show</Button>
 	
 </DoubleBorder>
 <h1>Our Features</h1>
