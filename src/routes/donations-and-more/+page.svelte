@@ -29,6 +29,6 @@
 	</p>
 	
 	<p>
-		<Button link="https://themidnightopera.printify.me/" newTab>Visit Our Printify</Button>
+		<Button link="https://midnight-opera-merch.printify.me/" newTab>Visit Our Printify</Button>
 	</p>
 </DoubleBorder>
